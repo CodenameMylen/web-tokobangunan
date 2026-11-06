@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap');
+
+body {
+    background: #0b0f1a;
+    color: white;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.produk-wrapper {
+    max-width: 1400px;
+    margin: auto;
+    padding: 100px 30px;
+}
+
+/* HEADER */
+.produk-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+    gap: 20px;
+}
+
+.judul {
+    font-size: 3rem;
+    font-weight: 900;
+    letter-spacing: .25em;
+    color: #f97316;
+}
+
+/* SORT */
+.sort-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(255,255,255,.04);
+    border: 1px solid rgba(255,255,255,.08);
+    padding: 14px 20px;
+    border-radius: 16px;
+}
+
+.sort-box i {
+    color: #f97316;
+}
+
+.sort-box select {
+    background: transparent;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: .8rem;
+    outline: none;
+}
+
+/* GRID */
+.produk-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    gap: 40px;
+}
+
+/* CARD */
+.produk-card {
+    background: rgba(255,255,255,.03);
+    border-radius: 32px;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,.08);
+    transition: all .35s ease;
+}
+
+.produk-card:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 30px 60px rgba(0,0,0,.45);
+}
+
+/* IMAGE */
+.produk-img {
+    height: 220px;
+    position: relative;
+    overflow: hidden;
+}
+
+.produk-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.badge {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    background: #ea580c;
+    padding: 6px 14px;
+    border-radius: 999px;
+    font-size: .65rem;
+    font-weight: 800;
+    letter-spacing: .1em;
+}
+
+/* BODY */
+.produk-body {
+    padding: 28px;
+}
+
+.produk-body h3 {
+    font-size: 1.05rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.deskripsi {
+    font-size: .75rem;
+    color: #cbd5f5;
+    margin-bottom: 20px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    font-size: .75rem;
+    margin-bottom: 24px;
+    color: #9ca3af;
+}
+
+/* BUTTON */
+.btn-wa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #ea580c;
+    padding: 14px;
+    border-radius: 16px;
+    font-weight: 800;
+    font-size: .75rem;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+.btn-wa:hover {
+    background: #f97316;
+}
+
+/* EMPTY */
+.kosong {
+    grid-column: 1/-1;
+    text-align: center;
+    color: #9ca3af;
+}
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap');
+body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #0b0f1a; color: white; scroll-behavior: smooth; }
+
+.glass { background: rgba(255, 255, 255, 0.02); backdrop-filter: blur(15px); border: 1px solid rgba(255, 255, 255, 0.08); }
+.glass-inner { background: rgba(255, 255, 255, 0.04); border: 1px solid rgba(255, 255, 255, 0.1); }
+
+.orange-accent { color: #f97316; }
+.bg-orange-600 { background-color: #ea580c; }
+.orange-glow { box-shadow: 0 15px 30px -5px rgba(234, 88, 12, 0.4); }
+
+/* Style Logo Kontak Seragam & Cantik */
+.social-card { display: flex; align-items: center; gap: 1.2rem; margin-bottom: 1.5rem; transition: transform 0.3s; }
+.social-card:hover { transform: translateX(10px); }
+.icon-box {
+    width: 50px; height: 50px; background-color: #ea580c; border-radius: 14px;
+    display: flex; align-items: center; justify-content: center; font-size: 1.5rem; color: white; flex-shrink: 0;
+    box-shadow: 0 8px 15px rgba(234, 88, 12, 0.3);
+}
+
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #0b0f1a; }
+::-webkit-scrollbar-thumb { background: #ea580c; border-radius: 10px; }
